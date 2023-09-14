@@ -33,51 +33,57 @@
     />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
   </head>
-  <body>
+  <body class="bg-dark">
     <div class="container p-1">
       <div class="row">
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">          
               <nav class="navbar justify-content-around m-auto navbar-expand-lg navbar-expand-md navbar-expand-sm">
                 <div class="container-fluid">
-                  <a class="navbarbrand text-warning">Hot Meals</a>
-                  <span> Deliver to: <i class="icon-map-marker text-warning"></i> Current Location Ashok Nagar, Chennai-600013</span>
-                  <form class="form-inline gap-2 mt-1 mb-2">
+                  <a class="navbarbrand text-warning m-auto text-center">Hot Meals</a>
+                  <span class="text-light"> Deliver to: <i class="icon-map-marker text-warning ml-1 me-1"></i>Current Location Old washermenpet, Chennai-600021</span>
+                  <form class="form-inline gap-2 mt-1 mb-2 ml-auto">
                     <div class="input-group">
                       <div class="input-group-prepend">
-                        <div class="input-group-text">
-                          <i class="bi bi-search text-warning"></i>
+                        <div class="input-group"> 
+                          <i class="bi bi-search text-warning">
+                            <input type="text" placeholder="Search Food" class="border-0 bg-transparent font-weight-bold text-white">
+                          </i>
                         </div>
                       </div>
-                      <div class="input-group-text">
-                        <input type="text" placeholder="Search Food">
-                      </div>
                     </div>
-                    <button class="btn btn-warning"><i class="bi bi-person"></i> Login</button>
+                    <button class="btn btn-warning m-auto"><i class="bi bi-person"></i> Login</button>
                   </form>
                 </div>
               </nav>
           <!-- second page -->
           <div class="container p-3 m-3">
               <div class="homepage">
-                <div class="row d-flex">
+                <div class="row">
                   <div class="col-lg-6 col-md-6 col-sm-12 col-xl-6">
                     <p class="lookmeals">Look at your fav Meals</p>
                     <p class="within mb-4">
                       Within a few clicks, find meals that are accessible near you
                     </p>
                     <div class="container mt-5">
-                      <div class="container1 bg-body p-2">
-                        <i class="bi bi-bicycle font-weight-bold ml-4"> Delivery</i>
-                        <i class="bi bi-bag-fill font-weight-bold ml-4"> Pickup</i>
-                        <div class="d-flex align-items-center mt-4">
-                          <div class="input border border-success rounded col-9">
-                            <i class="icon-map-marker text-warning"></i>
-                            <input type="text" placeholder="Enter your address" class="border-0" />
-                          </div>
-                          <div class="findfood ml-2 bg-danger p-2 rounded">
-                            <i class="bi bi-search text-white">  Find Food</i>
+                      <div class="container1 bg-body rounded p-2">
+                        <div class="row">
+                          <div class="col">
+                            <i class="bi bi-bicycle font-weight-bold ml-4"> Delivery</i>
+                            <i class="bi bi-bag-fill font-weight-bold ml-4"> Pickup</i>
+                            <div class="d-flex align-items-center mt-4">
+                              <div class="input-group border border-success rounded">
+                                <div class="input-group-prepend">
+                                  <i class="icon-map-marker text-warning p-1"></i>
+                                  <input type="text" placeholder="Enter your address" class="border-0 w-75" />
+                                </div>
+                              </div>
+                              <button class="findfood ml-2 bg-danger p-2 w-50 rounded border-0">
+                                <i class="bi bi-search text-white me-1"><span class="ml-1">Find Food</span></i>
+                              </button>
+                            </div>
                           </div>
                         </div>
+
                       </div>
                     </div>
                   </div>
@@ -129,7 +135,7 @@
           <div class="container p-2 mt-5">
             <p class="four"><b class="m-auto">How does it work</b></p>
             <div class="four1">
-              <div class="row p-3 mx-auto d-flex border">
+              <div class="row p-3 d-flex border">
                 <div class="col-lg-4 col-md-auto col-sm-12 col-xl-4 d-flex" style="border-right: 5px solid rgba(207, 207, 207, 1)">
                   <img src="dailydiscount.png" alt="">
                   <p>Daily Discounts</p>
@@ -179,8 +185,8 @@
           <div class="container six p-5 mt-5">
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-12 col-xl-6 align-self-center  text-left">
-                <h2 class="font-weight-bold">Best deals <span>Crispy Tiffen</span></h2>
-                <p>Enjoy the large size of Dosa. Complete perfect slice of Dosa.</p>
+                <h2 class="font-weight-bold text-white">Best deals <span>Crispy Tiffen</span></h2>
+                <p class="text-white">Enjoy the large size of Dosa. Complete perfect slice of Dosa.</p>
                   <button class="btn-warning p-2 w-50 text-light font-weight-bold">Proceed to order <i class="bi bi-chevron-right"></i></button>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12 col-xl-6 mt-3">
@@ -189,7 +195,7 @@
             </div>
           </div>
     <!-- items -->
-          <div class="container seven text-center p-5">
+          <div class="container seven text-center text-white p-5">
             <h2 class="font-weight-bold text-center">Popular Items</h2>
             <div class="row g-2 p-2 d-flex justify-content-between m-auto">
                   <div class="col-lg-2 col-md-6 col-sm-12 col-xl-2">
