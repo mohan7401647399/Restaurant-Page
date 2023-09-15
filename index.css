@@ -6,19 +6,10 @@
     padding: 0%;
     box-sizing: border-box;
 }
-
-/* .navcenter{ */
-        /* white-space: nowrap; */
-        /* overflow: hidden; */
-        /* text-overflow: clip; */
-/* } */
-
 .navbarbrand {
     font-family: "Qwigley";
     font-weight: 400;
     font-size: 80px;
-    /* line-height: 120%; */
-    /* color: #FFB30E; */
 }
 
 .homepage {
@@ -73,7 +64,7 @@
 }
 
 @media(max-width:500px){
-    .four1 p,img{
+    .four1 p,.four1 > img{
         height: 100px;
         width: 100px;
          font-size:20px !important;
